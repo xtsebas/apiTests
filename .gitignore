@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Archivos de build
+build/
+dist/
+*.exe
+*.msi
+*.tar.gz
+
+# Dependencias de desarrollo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno
+.env
+
+# Otros archivos y carpetas específicos de tu proyecto que no deben ser versionados
+config.js
+.idea/
+
+# Ignorar archivos generados por IDEs y editores específicos
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Si usas TypeScript
+*.tsbuildinfo
+
+# Si usas eslint
+.eslintcache
+
+# Si usas editorconfig
+.editorconfig
+
+# Si usas babel
+dist/
