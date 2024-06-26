@@ -21,7 +21,6 @@ yarn-error.log*
 .env
 
 # Otros archivos y carpetas específicos de tu proyecto que no deben ser versionados
-config.js
 .idea/
 
 # Ignorar archivos generados por IDEs y editores específicos
