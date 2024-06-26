@@ -14,7 +14,7 @@ const Pais = {
         });
     },
     getById: (id, callback) => {
-        pool.query('SELECT * FROM pais WHERE pais = ?', [id], (error, results) => {
+        pool.query('SELECT * FROM pais WHERE pais = $1', [id], (error, results) => {
             if (error) {
                 throw error;
             }

@@ -14,7 +14,7 @@ const Persona = {
         });
     },
     getById: (id, callback) => {
-        pool.query('SELECT * FROM Persona WHERE Idpersona = ?', [id], (error, results) => {
+        pool.query('SELECT * FROM Persona WHERE Idpersona = $1', [id], (error, results) => {
             if (error) {
                 throw error;
             }

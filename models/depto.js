@@ -13,7 +13,7 @@ const Depto = {
         });
     },
     getById: (id, callback) => {
-        pool.query('SELECT * FROM Departamento WHERE depto = ?', [id], (error, results) => {
+        pool.query('SELECT * FROM Departamento WHERE depto = $1', [id], (error, results) => {
             if (error) {
                 throw error;
             }
