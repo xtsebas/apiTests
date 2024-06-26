@@ -1,6 +1,6 @@
 module.exports = {
   database: {
-    user: 'postgres',
+    user: 'xtsebas',
     host: 'localhost',
     database: 'applicationxt',
     password: '3570',
