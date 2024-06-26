@@ -45,3 +45,10 @@ config.js
 
 # Si usas babel
 dist/
+
+# Local Netlify folder
+.netlify
+
+
+.gitignore
+.elasticbeanstalk/
